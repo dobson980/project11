@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A49082E825B18EA6008E80CB /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = A49082E725B18EA6008E80CB /* FireParticles.sks */; };
 		A4B3B65C25AD88E000A951A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3B65B25AD88E000A951A6 /* AppDelegate.swift */; };
 		A4B3B65E25AD88E000A951A6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4B3B65D25AD88E000A951A6 /* GameScene.sks */; };
-		A4B3B66025AD88E000A951A6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4B3B65F25AD88E000A951A6 /* Actions.sks */; };
 		A4B3B66225AD88E000A951A6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3B66125AD88E000A951A6 /* GameScene.swift */; };
 		A4B3B66425AD88E000A951A6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3B66325AD88E000A951A6 /* GameViewController.swift */; };
 		A4B3B66725AD88E000A951A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B3B66525AD88E000A951A6 /* Main.storyboard */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A49082E725B18EA6008E80CB /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 		A4B3B65825AD88E000A951A6 /* project11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B3B65B25AD88E000A951A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B3B65D25AD88E000A951A6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A4B3B65F25AD88E000A951A6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A4B3B66125AD88E000A951A6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A4B3B66325AD88E000A951A6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A4B3B66625AD88E000A951A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A49082E625B18E5F008E80CB /* media */ = {
+			isa = PBXGroup;
+			children = (
+				A49082E725B18EA6008E80CB /* FireParticles.sks */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
 		A4B3B64F25AD88E000A951A6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +66,9 @@
 		A4B3B65A25AD88E000A951A6 /* project11 */ = {
 			isa = PBXGroup;
 			children = (
+				A49082E625B18E5F008E80CB /* media */,
 				A4B3B65B25AD88E000A951A6 /* AppDelegate.swift */,
 				A4B3B65D25AD88E000A951A6 /* GameScene.sks */,
-				A4B3B65F25AD88E000A951A6 /* Actions.sks */,
 				A4B3B66125AD88E000A951A6 /* GameScene.swift */,
 				A4B3B66325AD88E000A951A6 /* GameViewController.swift */,
 				A4B3B66525AD88E000A951A6 /* Main.storyboard */,
@@ -128,9 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B3B66725AD88E000A951A6 /* Main.storyboard in Resources */,
+				A49082E825B18EA6008E80CB /* FireParticles.sks in Resources */,
 				A4B3B65E25AD88E000A951A6 /* GameScene.sks in Resources */,
 				A4B3B66925AD88E100A951A6 /* Assets.xcassets in Resources */,
-				A4B3B66025AD88E000A951A6 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.tomdobson.project11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.tomdobson.project11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
